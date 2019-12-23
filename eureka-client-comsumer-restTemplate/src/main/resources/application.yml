@@ -1,0 +1,10 @@
+server:
+  port: 7010
+user:
+  httpAddress: http://localhost:7000/getUser/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
