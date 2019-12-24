@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-comsumer1" />
         <module name="eureka-client-comsumer-feign-ribbon" />
+        <module name="eureka-client-feign-hystrix-zuul" />
         <module name="eureka-server" />
         <module name="eureka-client-provider" />
         <module name="eureka-client-comsumer-feign" />
@@ -23,6 +24,7 @@
       <module name="eureka-client-comsumer-feign-ribbon" options="-parameters" />
       <module name="eureka-client-comsumer-ribbon" options="-parameters" />
       <module name="eureka-client-comsumer1" options="-parameters" />
+      <module name="eureka-client-feign-hystrix-zuul" options="-parameters" />
       <module name="eureka-client-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>

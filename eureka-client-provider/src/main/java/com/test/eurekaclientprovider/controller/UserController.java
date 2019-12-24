@@ -17,8 +17,9 @@ public class UserController {
     private UserRepository userRepository;
 
     @RequestMapping("/getUser/{id}")
-    public User getUserById(@PathVariable int id, HttpServletRequest request){
-        System.out.println(request.getRemoteHost()+":"+request.getRemotePort());
+    public User getUserById(@PathVariable int id){
+
+        System.out.println("111");
         return this.userRepository.getOne(id);
     }
 }

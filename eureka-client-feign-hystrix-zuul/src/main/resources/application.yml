@@ -1,0 +1,22 @@
+server:
+  port: 7014
+
+spring:
+  application:
+    name: eureka-client-feign-hystrix-zuul
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka
+
+eureka-provider:  #远程服务虚拟主机名
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+
+zuul:
+  routes:
+    eureka-provider: /myuser/**  #将serviceID = eureka-client-user 简化为 /myuser
