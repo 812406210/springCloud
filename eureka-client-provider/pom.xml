@@ -6,7 +6,7 @@
         <groupId>com.test</groupId>
         <artifactId>springcloud</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.test</groupId>
     <artifactId>eureka-client-provider</artifactId>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>2.2.1.RELEASE</version>
+<!--            <version>2.2.1.RELEASE</version>-->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
