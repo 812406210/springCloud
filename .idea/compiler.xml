@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-comsumer-feign-hystrix-dashboard" />
         <module name="eureka-client-comsumer1" />
+        <module name="eureka-client-comsumer-feign-hystrix-turbine" />
         <module name="eureka-client-comsumer-feign-ribbon" />
-        <module name="eureka-client-feign-hystrix-zuul" />
         <module name="eureka-server" />
+        <module name="eureka-client-feign-hystrix-zuul" />
         <module name="eureka-client-provider" />
-        <module name="eureka-client-comsumer-feign" />
         <module name="eureka-client-comsumer-feign-hystrix" />
         <module name="eureka-client-comsumer-ribbon" />
+        <module name="eureka-client-comsumer-feign" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +23,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client-comsumer-feign" options="-parameters" />
       <module name="eureka-client-comsumer-feign-hystrix" options="-parameters" />
+      <module name="eureka-client-comsumer-feign-hystrix-dashboard" options="-parameters" />
+      <module name="eureka-client-comsumer-feign-hystrix-turbine" options="-parameters" />
       <module name="eureka-client-comsumer-feign-ribbon" options="-parameters" />
       <module name="eureka-client-comsumer-ribbon" options="-parameters" />
       <module name="eureka-client-comsumer1" options="-parameters" />

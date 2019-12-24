@@ -16,6 +16,8 @@
         <module>eureka-client-comsumer-feign-ribbon</module>
         <module>eureka-client-comsumer-feign-hystrix</module>
         <module>eureka-client-feign-hystrix-zuul</module>
+        <module>eureka-client-comsumer-feign-hystrix-dashboard</module>
+        <module>eureka-client-comsumer-feign-hystrix-turbine</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

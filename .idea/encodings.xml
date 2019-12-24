@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign-hystrix-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-restTemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-ribbon" charset="UTF-8" />

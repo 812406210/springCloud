@@ -4,7 +4,7 @@ spring:
   application:
     name: eureka-provider  #虚拟主机名，ribbon调用时，需要使用到
 server:
-  port: 7000
+  port: 7001
 
 eureka:
   client:
