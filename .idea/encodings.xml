@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-feign-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-restTemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-comsumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-comsumer-stream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-comsumer-stream-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-feign-hystrix-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />

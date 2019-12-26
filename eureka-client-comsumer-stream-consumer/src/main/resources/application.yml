@@ -1,0 +1,56 @@
+server:
+  port: 7018
+user:
+  httpAddress: http://eureka-provider/getUser/  #使用虚拟主机名
+
+spring:
+  application:
+    name: eureka-client-stream-consumer
+  thymeleaf:
+    suffix:
+  rabbitmq:
+    publisher-returns: true
+    host: 132.232.44.82
+    port: 5672
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 1
+        max-concurrency: 1 #设置只能被消费一次，防止重复消费，分布式时，轮询被消费
+        retry:
+          enabled: true
+  cloud:
+    stream:
+      bindings:
+        mymsg1:
+          destination: test1 #目的地
+          group: stream #群组
+        mymsg2:
+          destination: test2 #目的地
+          group: stream #群组
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka
+
+#  cloud:
+#    stream:
+#      bindings:
+#        mymsg: ###指定 管道名称
+#          #指定该应用实例属于 stream 消费组
+#          group: stream
+#  spring.rabbitmq.publisher-returns=true
+#  #采用手动应答
+#  #spring.rabbitmq.listener.simple.acknowledge-mode=manual
+#  #指定最小的消费者数量
+#  spring.rabbitmq.listener.simple.concurrency=1
+#  #指定最大的消费者数量
+#  spring.rabbitmq.listener.simple.max-concurrency=1
+#  #是否支持重试
+#  spring.rabbitmq.listener.simple.retry.enabled=true 
+
