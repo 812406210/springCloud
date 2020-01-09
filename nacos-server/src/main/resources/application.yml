@@ -1,0 +1,12 @@
+#端口
+server:
+  port: 8001
+#虚拟应用名
+spring:
+  application:
+    name: springcloud-nacos-discovery-provider
+#nacos地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

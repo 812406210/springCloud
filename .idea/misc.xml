@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/eureka-client-comsumer-feign-hystrix-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-comsumer-stream/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-comsumer-stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-server/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-client-consumer/pom.xml" />
       </list>
     </option>
   </component>

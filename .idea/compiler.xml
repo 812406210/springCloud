@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-server" />
+        <module name="eureka-client-comsumer-feign-hystrix-dashboard" />
         <module name="eureka-client-comsumer-restTemplate" />
-        <module name="eureka-server" />
-        <module name="eureka-client-comsumer-feign-hystrix-turbine" />
+        <module name="eureka-client-provider" />
         <module name="eureka-client-comsumer-feign-ribbon" />
+        <module name="eureka-client-feign-hystrix-zuul" />
         <module name="eureka-client-comsumer-stream-consumer" />
         <module name="eureka-client-comsumer-stream-producer" />
-        <module name="eureka-client-comsumer-ribbon" />
-        <module name="eureka-client-feign-hystrix-zuul" />
         <module name="eureka-client-comsumer-feign" />
-        <module name="eureka-client-provider" />
+        <module name="eureka-server" />
+        <module name="eureka-client-comsumer-feign-hystrix-turbine" />
+        <module name="nacos-client-consumer" />
         <module name="eureka-client-comsumer-feign-hystrix" />
-        <module name="eureka-client-comsumer-feign-hystrix-dashboard" />
+        <module name="eureka-client-comsumer-ribbon" />
       </profile>
     </annotationProcessing>
   </component>
@@ -35,6 +37,8 @@
       <module name="eureka-client-feign-hystrix-zuul" options="-parameters" />
       <module name="eureka-client-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="nacos-client-consumer" options="-parameters" />
+      <module name="nacos-server" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,13 @@
+#端口
+server:
+  port: 8005
+#虚拟主机名，对于openFeign有用
+spring:
+  application:
+    name: springcloud-nacos-discovery-consumer
+#nacos地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+

@@ -20,6 +20,7 @@
         <module>eureka-client-comsumer-feign-hystrix-turbine</module>
         <module>eureka-client-comsumer-stream-producer</module>
         <module>eureka-client-comsumer-stream-consumer</module>
+        <module>nacos-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
