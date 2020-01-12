@@ -21,6 +21,7 @@
         <module>eureka-client-comsumer-stream-producer</module>
         <module>eureka-client-comsumer-stream-consumer</module>
         <module>nacos-server</module>
+        <module>nacos-client-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

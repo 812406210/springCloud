@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/eureka-client-comsumer-stream-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-server/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-client-consumer-gateway/pom.xml" />
       </list>
     </option>
   </component>

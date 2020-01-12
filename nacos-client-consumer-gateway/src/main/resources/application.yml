@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:  #方法二：路由功能
+        - id: nameRoot
+          uri: http://localhost:8001  #路由地址
+          predicates:
+            - Path=/gateway/**   # 由 http://localhost:8080/gateway/xxx 路由到   http://localhost:8001/xxx
+          filters:
+            - StripPrefix=1  # 截断路由地址
